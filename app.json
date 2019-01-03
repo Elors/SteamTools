@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#3B72DB",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "终端",
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#3B72DB" 
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#FFFFFF",
+    "backgroundColor": "#3B72DB",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "热门"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "状态"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "关于"
+      }
+    ]
+  },
+  "networkTimeout": {
+    
+  }
+}
